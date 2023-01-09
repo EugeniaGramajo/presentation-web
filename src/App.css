@@ -1,0 +1,45 @@
+/* App.css */
+
+:root {
+  --bg-color-light: #fff;
+  --text-color-light: #333;
+  --link-color-light: #00b8d4;
+  --bg-color-dark: #333;
+  --text-color-dark: #fff;
+  --link-color-dark: #00b8d4;  
+  --navbar-bg-color-light: #fff;
+  --navbar-text-color-light: #333;
+  --navbar-bg-color-dark: #333;
+  --navbar-text-color-dark: #fff;
+}
+
+body {
+  background-color: var(--bg-color-light);
+  color: var(--text-color-light);
+}
+
+a {
+  color: var(--link-color-light);
+}
+
+.dark-mode {
+  --bg-color: var(--bg-color-dark);
+  --text-color: var(--text-color-dark);
+  --link-color: var(--link-color-dark);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.dark-mode a {
+  color: var(--link-color);
+}
+
+.navbar {
+  background-color: var(--navbar-bg-color-light);
+  color: var(--navbar-text-color-light);
+}
+
+.dark-mode .navbar {
+  background-color: var(--navbar-bg-color-dark);
+  color: var(--navbar-text-color-dark);
+}
