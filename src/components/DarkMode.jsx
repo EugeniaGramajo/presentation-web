@@ -1,18 +1,14 @@
 import React from 'react';
 import '../App.css';
+import {useDispatch} from "react-redux"
+import {darkMode} from '../Actions/actions';
 
 function DarkModeToggle() {
-  const [darkMode, setDarkMode] = React.useState(false);
-
-  const toggleDarkMode = () => {
-    setDarkMode(!darkMode);
-    console.log(darkMode)
-    document.body.classList.toggle('dark-mode');
-  };
-
+ 
+  const dispatch = useDispatch()
   return (
-    <button onClick={toggleDarkMode}>Dark mode</button>
+    <button onClick={()=>dispatch(darkMode())}>Dark mode</button>
   );
-}
+ };
 
 export default DarkModeToggle;
