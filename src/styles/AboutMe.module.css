@@ -39,7 +39,7 @@
   line-height: 1.5;
   }
 
-  @media (max-width:1200px){
+  @media (max-width:1300px){
     .aboutme img {
       width: 300px;
   height: 300px;
@@ -66,7 +66,7 @@
   margin: auto;
   }
   }
-  @media (max-width: 768px) {
+  @media (max-width: 900px) {
   .aboutme img {
   width: 200px;
   height: 200px;

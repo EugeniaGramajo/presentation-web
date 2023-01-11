@@ -1,13 +1,17 @@
 import React from 'react';
 import '../App.css';
-import {useDispatch} from "react-redux"
+import {useDispatch, useSelector} from "react-redux"
 import {darkMode} from '../Actions/actions';
+import styles from "../styles/DarkMode.module.css"
 
 function DarkModeToggle() {
  
   const dispatch = useDispatch()
   return (
-    <button onClick={()=>dispatch(darkMode())}>Dark mode</button>
+    <label className={styles.switch}>
+      <input type="checkbox" onChange={()=>dispatch(darkMode())}></input>
+      <span className={styles.slider}></span>
+    </label>
   );
  };
 

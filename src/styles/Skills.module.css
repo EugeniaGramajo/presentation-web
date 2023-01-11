@@ -1,0 +1,125 @@
+.h1 {
+    font-family: 'Cinzel Decorative', cursive;
+    margin-top: 12%;
+    margin-left: 4%;
+    font-size: 55px;
+}
+
+.tech {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.tech p {
+    width: 38%;
+    text-align: center;
+    margin: auto;
+    font-family: 'Marcellus SC', serif;
+    font-size: 22px;
+    margin-left: 3%;
+}
+.items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 35%;
+    margin: auto;
+}
+
+.imgTech {
+    height: 100px;
+    margin: 15px;
+}
+
+.span {
+    margin: 25px;
+
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 120px;
+    text-align: center;
+}
+
+
+.span:hover {
+    transform: scale(1.5);
+    transition: transform 0.3s ease-in-out;
+}
+#skills{
+    padding-top: 20px;
+}
+.items2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 45%;
+    margin: auto;
+}
+.items2 .span{
+    margin: 60px;
+}
+
+
+@media (max-width:1200px) {
+    .items{
+        width: 60%;
+    }
+    .tech p {
+        font-size: 19px;
+    }
+    .items2{
+        width: 70%;
+    }
+}
+
+@media (max-width:800px) {
+    .h1{
+        font-size: 45px;
+    }
+    .tech p {
+        font-size: 16px;
+        width: 70%;
+        margin: auto;
+    }
+
+    .tech {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .items{
+        width: 80%;
+        margin: auto;
+    }
+    .items2{
+        width: 80%;
+    }
+    .span{
+        width: 80px;
+        height: 80px;
+    }
+    .items2 .span{
+        margin: 35px;
+    }
+}
+
+@media (max-width:480px) {
+    .tech p {
+        font-size: 14px;
+    }
+    .span{
+        width: 60px;
+        height: 60px;
+    }
+    .h1{
+        font-size: 30px;
+    }
+    .items2{
+        width: 100%;
+    }
+}

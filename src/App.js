@@ -9,6 +9,8 @@ import NavBar from "./components/NavBar";
 import DarkModeToggle from "./components/DarkMode";
 import { useSelector } from "react-redux";
 import { Route } from "react-router-dom";
+import Skills from "./components/Skills";
+import Projects from "./components/Projets";
 
 function App() {
   const darkMode = useSelector((state) => state.darkMode);
@@ -20,9 +22,12 @@ function App() {
           <NavBar></NavBar>
           <Header></Header>
           <AboutMe></AboutMe>
+          
 
         
         <Education></Education>
+        <Skills></Skills>
+        <Projects></Projects>
         <Footer></Footer>
       
     </div>
