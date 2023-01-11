@@ -59,7 +59,16 @@ function NavBar() {
             >
               Projects
             </Link>
-          </li> <li className={styles.contact}><a href="#">Contact</a></li>
+          </li> <li className={styles.contact}><Link
+              activeClass="active"
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Contact
+            </Link></li>
         
           <li><DarkModeToggle></DarkModeToggle></li>
          </ul>

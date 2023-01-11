@@ -1,0 +1,87 @@
+.h1{
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 55px;
+    margin-left: 3%;
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+.form{
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 30px; 
+}
+.general{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    justify-content: center;
+}
+.gral{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: auto;
+}
+.submit{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.name input{
+    margin-bottom: 2%;
+    margin-left: 17%;
+    font-family: 'Cinzel Decorative', cursive;
+   
+    width: 200px;
+    height: 45px;
+}
+.subject input{
+    margin-left: 10%;
+    width: 200px;
+    height: 45px;
+    font-family: 'Cinzel Decorative', cursive;
+   
+    margin-bottom: 2%;
+}
+.email input{
+    margin-left: 14%;
+    width: 200px;
+    height: 45px;
+    font-family: 'Cinzel Decorative', cursive;
+   
+    margin-bottom: 2%;
+}
+.textarea{
+    width: 500px;
+    height: 250px;
+   margin: 10px 70px 10px 10px;
+   font-family: 'Cinzel Decorative', cursive;
+   font-size: 20px;
+}
+
+.submit{
+    height: 50px;
+    width: 100px;
+    border: none;
+    background-color: #E1BEB8;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+.social{
+   display: flex;
+    flex-direction: row; 
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+.social img{
+    
+    width: 100px;
+    margin: 2%;
+}
+.social a{
+    margin: 50px;
+}

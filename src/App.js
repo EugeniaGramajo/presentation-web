@@ -11,6 +11,7 @@ import { useSelector } from "react-redux";
 import { Route } from "react-router-dom";
 import Skills from "./components/Skills";
 import Projects from "./components/Projets";
+import Contact from "./components/Contact";
 
 function App() {
   const darkMode = useSelector((state) => state.darkMode);
@@ -28,6 +29,7 @@ function App() {
         <Education></Education>
         <Skills></Skills>
         <Projects></Projects>
+        <Contact></Contact>
         <Footer></Footer>
       
     </div>

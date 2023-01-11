@@ -1,8 +1,12 @@
 import React from "react";
+import { useSelector } from "react-redux";
 import { projects } from "../Data/Data";
 import styles from "../styles/Projects.module.css"
 
 export default function Projects(props){
+
+    const darkMode=useSelector(state=>state.darkMode)
+
     return(
         <>
         <div id="projects">
