@@ -6,9 +6,9 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import NavBar from "./components/NavBar";
 
-import DarkModeToggle from "./components/DarkMode";
+
 import { useSelector } from "react-redux";
-import { Route } from "react-router-dom";
+
 import Skills from "./components/Skills";
 import Projects from "./components/Projets";
 import Contact from "./components/Contact";

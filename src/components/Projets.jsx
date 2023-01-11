@@ -15,7 +15,7 @@ export default function Projects(props){
             <div className={styles.general} >
                
                 
-            <img className={styles.video} src={project.video}></img>    
+            <img className={styles.video} src={project.video} alt={project.name}></img>    
             <div className={styles.project}>  
             <div><h1 className={styles.h2}>{project.name}</h1></div>  
                 

@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import {useDispatch, useSelector} from "react-redux"
+import {useDispatch} from "react-redux"
 import {darkMode} from '../Actions/actions';
 import styles from "../styles/DarkMode.module.css"
 

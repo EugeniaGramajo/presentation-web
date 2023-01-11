@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import styles from "../styles/Skills.module.css";
-import ReactTable from "react-table";
+
 import { tableTechSkills, softSkills } from "../Data/Data";
 
 export default function Skills(props) {
