@@ -3,8 +3,10 @@ import styles from '../styles/AboutMe.module.css';
 
 
 function AboutMe(props) {
+  
+
   return (
-    <div className={styles.aboutme}>
+    <div className={`container ${styles.aboutme}`}>
     <img src='https://img.chilango.com/2022/06/catitow-1024x682.jpeg' alt="michi" className={`${styles.fadein} ${styles.slideinright} ${styles.zoom}`} />
 
  <div className={styles.slideinright}> <p className={styles.p}>
@@ -15,6 +17,7 @@ function AboutMe(props) {
 I consider myself to be a highly motivated and dedicated person, 
 always looking for new opportunities to challenge myself and continue growing as a developer.</p></div>
     </div>
+
   );
 }
 
