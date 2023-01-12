@@ -5,6 +5,7 @@
     background-color: #fff;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
     padding: 20px;
     padding-right: 0px;
@@ -51,7 +52,8 @@
     @media (max-width: 480px) {
     .navbar {
 
-    flex-direction: column;
+    flex-direction: row;
+    
     align-items:center;
     text-align: center;
     width: 100%;
@@ -59,16 +61,27 @@
     }
     
     .navbar ul {
-    display: block;
+        display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5px;
+    margin-top: 2px ;
+    margin-bottom: 0px;
+    
     }
     
     .navbar li {
-    margin: 10px 0;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
     }
     }
     
     @media (max-width: 768px) {
     .navbar {
+        width: 100%;
     flex-wrap: wrap;
     }
     
