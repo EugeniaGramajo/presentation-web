@@ -17,8 +17,7 @@
     margin: auto;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 60px;
-    margin-bottom: 60px;
+   ;
     justify-content: center;
 }
 .gral{
@@ -26,6 +25,7 @@
     flex-direction: column;
     width: 500px;
     margin: auto;
+
 }
 .submit{
     margin: auto;
@@ -78,7 +78,7 @@
     flex-direction: row; 
     margin: auto;
     justify-content: center;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 .social img{
     
@@ -86,7 +86,7 @@
     margin: 2%;
 }
 .social a{
-    margin: 50px;
+    margin: 40px;
 }
 .download{
     border: #E1BEB8;
