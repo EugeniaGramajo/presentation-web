@@ -58,7 +58,7 @@
 .textarea{
     width: 500px;
     height: 250px;
-   margin: 10px 70px 10px 10px;
+   margin: 10px 90px 10px 10px;
    font-family: 'Cinzel Decorative', cursive;
    font-size: 20px;
 }
@@ -102,6 +102,9 @@
 }
 .divbutton{
     align-self: center;
+}
+.textA{
+    margin: auto;
 }
 
 
