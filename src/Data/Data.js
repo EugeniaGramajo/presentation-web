@@ -87,7 +87,7 @@ export const projects = [
     },
     {
         name:"Personal Web Page",
-        deploy:"",
+        deploy:"https://eugeniagramajo.vercel.app/",
         video:personalWeb,
         summary:"This is my own web site to introduce myself, share my projects and skills. I want to show what I am able to do."
     },
