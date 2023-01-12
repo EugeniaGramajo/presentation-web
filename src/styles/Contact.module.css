@@ -4,6 +4,7 @@
     margin-left: 3%;
     margin-top: 15%;
     margin-bottom: 10%;
+    text-align: center;
 }
 .form{
     font-family: 'Cinzel Decorative', cursive;
@@ -84,4 +85,94 @@
 }
 .social a{
     margin: 50px;
+}
+.download{
+    border: #E1BEB8;
+    background-color: #E1BEB8;
+    color: #24222D;
+    align-self: center;
+    align-items: center;
+    margin: auto;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: 600;
+    box-shadow: 0 0 5px 1px rgba(29, 28, 28, 0.389);
+}
+.divbutton{
+    align-self: center;
+}
+
+
+@media (max-width:1000px){
+    .h1{
+        font-size: 45px;
+    }
+    .general{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+    .textA{
+        margin: auto;
+        align-self: auto;
+        align-content: center;
+        margin-left: 15%;
+    }
+}
+
+@media(max-width:780px){
+    .h1{
+        font-size: 40px;
+    }
+    .social a{
+        margin: 10px;
+    }
+    .social img{
+        width: 70px;
+    }
+    .download{
+        width: 100px;
+    }
+    .textA{
+        
+        margin-left: 3%;
+    }
+    .textarea{
+        width: 350px;
+    }
+}
+
+@media (max-width:480px){
+    .h1{
+        font-size: 25px;
+    }
+    .social a{
+        margin-left: 10%;
+    }
+    .social img{
+        width: 50px;
+
+    }
+    .download{
+        font-size: 10px;
+        width: 70px;
+        margin: auto;
+    }
+   .textarea{
+    display: none;
+   }
+   .name{
+    display: none;
+   }
+   .email{
+    display: none;
+   }
+   .subject{
+    display: none;
+   }
+   .submit{
+    display: none;
+   }
 }

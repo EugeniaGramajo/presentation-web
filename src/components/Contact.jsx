@@ -1,5 +1,7 @@
 import React from "react";
+import pdf from "../Data/EugeniaGramajo(Eng).pdf"
 import styles from "../styles/Contact.module.css";
+
 
 export default function Contact(props) {
   return (
@@ -36,6 +38,9 @@ export default function Contact(props) {
             </a>
           </span>
         </div>
+        <div className={styles.divbutton}>
+        <a href={pdf} download><button className={styles.download}>Download CV</button></a>
+</div>
       </div>
 
       <form
