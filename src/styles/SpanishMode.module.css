@@ -21,7 +21,7 @@
   
   .switchtoggle input[type="checkbox"]+label::before {
     position: absolute;
-    content: 'ESP';
+    content: 'ENG';
     font-size: 13px;
     text-align: center;
     line-height: 25px;
@@ -39,7 +39,7 @@
   
   .switchtoggle input[type="checkbox"]:checked+label::before {
     left: 35%;
-    content: 'ENG';
+    content: 'ESP';
     color: #24222D;
     background-color: #E1BEB8;
     
