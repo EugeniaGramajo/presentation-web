@@ -29,7 +29,7 @@
     font-family: 'Cinzel Decorative', cursive;
     font-size: 55px;
     margin-left: 7%;
-    padding-top:10% ;
+    padding-top:5% ;
 }
 .h2{
     font-family: 'Cinzel Decorative', cursive;
@@ -45,6 +45,9 @@
 
 
 @media (max-width:1200px) {
+    .h1{
+        padding-top:15%;
+    }
     .summary{
         font-size: 18px;
     }

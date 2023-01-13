@@ -1,14 +1,16 @@
 import React from "react";
 import pdf from "../Data/EugeniaGramajo(Eng).pdf"
 import styles from "../styles/Contact.module.css";
-
+import {useSelector} from "react-redux"
 
 export default function Contact(props) {
+  const spanish = useSelector(state=>state.spanishMode)
   return (
     <>
-      <h1 className={styles.h1} id="contact">
-        Contact
-      </h1>
+      <h1 className={styles.h1} id="contact">{
+        spanish? "Contacto"
+        :"Contact"
+      }</h1>
       <div className={styles.social}>
         <div>
           <span>
@@ -39,7 +41,7 @@ export default function Contact(props) {
           </span>
         </div>
         <div className={styles.divbutton}>
-        <a href={pdf} download><button className={styles.download}>Download CV</button></a>
+        <a href={pdf} className={styles.a} download><button className={styles.download}>Download CV</button></a>
 </div>
       </div>
 
@@ -50,24 +52,24 @@ export default function Contact(props) {
       >
         <div className={styles.general}>
           <div className={styles.gral}>
-            <label className={styles.name}>
-              Name:{" "}
-              <input name="name" type="text" placeholder="   name"></input>
+            <label className={styles.name}>{
+              spanish? "Nombre: " : "Name: "
+            }<input name="name" type="text" placeholder={spanish? "   Nombre" : "   name"}></input>
             </label>
-            <label className={styles.subject}>
-              Subject:{" "}
-              <input type="text" name="subject" placeholder="  Subject"></input>
+            <label className={styles.subject}>{spanish?
+                "Asunto: " : "Subject: "
+              }<input type="text" name="subject" placeholder={spanish? "   Asunto" : "  Subject"}></input>
             </label>
             <label className={styles.email}>
               E-mail:{" "}
-              <input type="email" name="email" placeholder="  Email"></input>
+              <input type="email" name="email" placeholder= "  Email"></input>
             </label>
           </div>
 
           <div className={styles.textA}>
             <textarea
               className={styles.textarea}
-              placeholder="   Message"
+              placeholder={spanish? "   Mensaje":"   Message"}
               name="textarea"
             ></textarea>
             <input
@@ -79,7 +81,7 @@ export default function Contact(props) {
         </div>
         <label>
           
-          <input className={styles.submit} type="submit"></input>
+          <input className={styles.submit} value={spanish? "Enviar" : "Send"} type="submit"></input>
         </label>
       </form>
     </>

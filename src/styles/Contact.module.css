@@ -5,6 +5,7 @@
     margin-top: 15%;
     margin-bottom: 10%;
     text-align: center;
+    padding: 1%;
 }
 .form{
     font-family: 'Cinzel Decorative', cursive;
@@ -27,6 +28,11 @@
     margin: auto;
 
 }
+.gral label {
+    display: flex;
+    flex-direction: column;
+}
+
 .submit{
     margin: auto;
     display: flex;
@@ -35,23 +41,23 @@
 }
 .name input{
     margin-bottom: 2%;
-    margin-left: 17%;
+    
     font-family: 'Cinzel Decorative', cursive;
    
-    width: 200px;
+    max-width: 500px;
     height: 45px;
 }
 .subject input{
-    margin-left: 10%;
-    width: 200px;
+   
+    width: 500px;
     height: 45px;
     font-family: 'Cinzel Decorative', cursive;
    
     margin-bottom: 2%;
 }
 .email input{
-    margin-left: 14%;
-    width: 200px;
+    
+    width: 500px;
     height: 45px;
     font-family: 'Cinzel Decorative', cursive;
    
@@ -59,7 +65,7 @@
 }
 .textarea{
     width: 500px;
-    height: 250px;
+    height: 300px;
    margin: 10px 90px 10px 10px;
    font-family: 'Cinzel Decorative', cursive;
    font-size: 20px;
@@ -101,9 +107,19 @@
     font-family: 'Cinzel Decorative', cursive;
     font-weight: 600;
     box-shadow: 0 0 5px 1px rgba(29, 28, 28, 0.389);
+    cursor: hand;
+}
+.a{
+    cursor: hand;
+
+}
+.a button:hover{
+    cursor: hand;
+    background-color: #F1DEE2;
 }
 .divbutton{
     align-self: center;
+    cursor: hand;
 }
 .textA{
     margin: auto;

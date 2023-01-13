@@ -89,12 +89,14 @@ export const projects = [
         name:"Pusheen Recipes",
         deploy:"https://deploy-food.vercel.app/",
         video:pusheen,
+        spanish:"Este sitio web es un proyecto personal donde puse toda mi pasion y entusiasmo por la cocina junto con lo aprendido para ofrecer una web de recetas. Ha sido una experiencia increible y lleno de crecimiento",
         summary:" This website is my personal project where I put all my passion and enthusiasm for cooking and using my skills learned in bootcamp. I created this site as a way to practice what I was learning in bootcamp and to make it an amazing experience."
     },
     {
         name:"Personal Web Page",
         deploy:"https://eugeniagramajo.vercel.app/",
         video:personalWeb,
+        spanish:"Esta es mi Portfolio-Web-Page donde muestro mis proyectos y habilidades y que soy capaz de hacer.",
         summary:"This is my own web site to introduce myself, share my projects and skills. I want to show what I am able to do."
     },
 
