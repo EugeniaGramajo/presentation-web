@@ -157,6 +157,9 @@
     .download{
         width: 100px;
     }
+    .gral input{
+        width: 300px;
+    }
     .textA{
         
         margin-left: 3%;
@@ -176,6 +179,9 @@
     .social img{
         width: 50px;
 
+    }
+    .gral label{
+        display: none;
     }
     .download{
         font-size: 10px;
