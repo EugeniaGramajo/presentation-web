@@ -47,32 +47,38 @@ export const tableTechSkills = [
 export const softSkills = [
   {
     name: "Adaptability",
+    spanish:"Adaptabilidad",
     img: "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/puzzle-piece_1f9e9.png",
     alt: "Adaptability",
   },
   {
     name: "Curiosity",
+    spanish: "Curiosidad",
     img: "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/magnifying-glass-tilted-left_1f50d.png",
     alt: "Curiosity",
   },
   {
     name: "Critical thinking",
+    spanish: "Pensamiento critico",
     img: "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/brain_1f9e0.png",
     alt: "Critical thinking",
   },
   {
     name: "Conflict resolution",
+    spanish: "Resolución de conflictos",
     img: "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/handshake_medium-light-skin-tone_1f91d-1f3fc_1f3fc.png",
     alt: "Conflict resolution",
   },
   {
     name: "Resilience",
+    spanish: "Resiliencia",
     img: "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/woman-climbing-medium-skin-tone_1f9d7-1f3fd-200d-2640-fe0f.png",
     alt: "Resilience",
   },
 
   {
     name: "Teamwork",
+    spanish: "Trabajo en equipo",
     img: "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/apple/325/busts-in-silhouette_1f465.png",
     alt: "Teamwork",
   },

@@ -3,10 +3,11 @@ import styles from "../styles/NavBar.module.css"
 import { useSelector } from "react-redux";
 import DarkModeToggle from "./DarkMode";
 import { Link } from "react-scroll";
+import SpanishMode from "./SpanishMode";
 
 function NavBar() {
   
-
+  const spanish = useSelector(state=>state.spanishMode)
   const darkMode = useSelector(state=>state.darkMode)
 
     return (
@@ -20,9 +21,7 @@ function NavBar() {
               smooth={true}
               offset={-70}
               duration={500}
-            >
-              Home
-            </Link>
+            >{spanish? "Inicio" : "Home"}</Link>
           </li>
           <li>
             <Link
@@ -32,9 +31,10 @@ function NavBar() {
               smooth={true}
               offset={-70}
               duration={500}
-            >
-              Education
-            </Link>
+            >{spanish?
+              "Educación" :
+              "Education"
+            }</Link>
           </li>
           <li>
             <Link
@@ -56,9 +56,10 @@ function NavBar() {
               smooth={true}
               offset={-70}
               duration={500}
-            >
-              Projects
-            </Link>
+            >{ spanish?
+              "Proyectos" :
+              "Projects"
+            }</Link>
           </li> <li className={styles.contact}><Link
               activeClass="active"
               to="contact"
@@ -66,11 +67,13 @@ function NavBar() {
               smooth={true}
               offset={-70}
               duration={500}
-            >
-              Contact
-            </Link></li>
+            >{ spanish?
+              "Contacto":
+              "Contact"
+            }</Link></li>
         
           <li><DarkModeToggle></DarkModeToggle></li>
+          <li><SpanishMode></SpanishMode></li>
          </ul>
       </nav>
     );
