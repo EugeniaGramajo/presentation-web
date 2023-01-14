@@ -44,7 +44,7 @@
     
     font-family: 'Cinzel Decorative', cursive;
    
-    max-width: 500px;
+    width: 500px;
     height: 45px;
 }
 .subject input{
@@ -163,9 +163,7 @@
         
         margin-left: 3%;
     }
-    .textarea{
-        width: 350px;
-    }
+   
 }
 
 @media (max-width:480px){
