@@ -6,7 +6,6 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import NavBar from "./components/NavBar";
 
-
 import { useSelector } from "react-redux";
 
 import Skills from "./components/Skills";
@@ -18,20 +17,14 @@ function App() {
 
   return (
     <div className={darkMode ? "dark-mode" : ""}>
-      
-        
-          <NavBar></NavBar>
-          <Header></Header>
-          <AboutMe></AboutMe>
-          
-
-        
-        <Education></Education>
-        <Skills></Skills>
-        <Projects></Projects>
-        <Contact></Contact>
-        <Footer></Footer>
-      
+      <NavBar></NavBar>
+      <Header></Header>
+      <AboutMe></AboutMe>
+      <Education></Education>
+      <Skills></Skills>
+      <Projects></Projects>
+      <Contact></Contact>
+      <Footer></Footer>
     </div>
   );
 }

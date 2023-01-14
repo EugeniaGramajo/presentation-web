@@ -7,7 +7,7 @@ export default function SpanishMode(){
 
     const spanish = useSelector(state=>state.spanishMode)
     const dispatch = useDispatch()
-    console.log(spanish)
+
     return(
         <>
         <div className={styles.switchtoggle}>
