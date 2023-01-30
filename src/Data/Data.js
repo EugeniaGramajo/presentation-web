@@ -48,7 +48,7 @@ export const softSkills = [
   {
     name: "Adaptability",
     spanish:"Adaptabilidad",
-    img: "https://em-content.zobj.net/thumbs/120/apple/325/magnifying-glass-tilted-left_1f50d.png",
+    img: "https://em-content.zobj.net/thumbs/120/apple/325/puzzle-piece_1f9e9.png",
     alt: "Adaptability",
   },
   {
