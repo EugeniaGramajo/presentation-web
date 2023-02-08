@@ -1,5 +1,6 @@
 import pusheen from "./Pusheen.gif"
 import personalWeb from "./Web.gif"
+import doblev from "./doblev.gif"
 
 export const tableTechSkills = [
   {
@@ -99,5 +100,12 @@ export const projects = [
         spanish:"Esta es mi Portfolio-Web-Page donde muestro mis proyectos y habilidades y que soy capaz de hacer.",
         summary:"This is my own web site to introduce myself, share my projects and skills. I want to show what I am able to do."
     },
+    {
+      name:"Doble v Estudio de Tatuajes",
+      deploy:"https://doble-v.vercel.app/",
+      video: doblev,
+      spanish:"Esta es una web para un cliente que quería algo especial para su negocio. Este es el deploy que hoce para mostrarselo, estoy esperando el dominio para terminarlo.",
+      summary:"This is a web page for a client who wanted something special for his business, this is the deploy I made to show him the progress. I am wating the domain to finish it",
+    }
 
 ]
