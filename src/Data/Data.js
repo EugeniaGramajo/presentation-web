@@ -1,6 +1,7 @@
 import pusheen from "./Pusheen.gif"
 import personalWeb from "./Web.gif"
 import doblev from "./doblev.gif"
+import videogames from "./videogames.gif"
 
 export const tableTechSkills = [
   {
@@ -86,6 +87,13 @@ export const softSkills = [
 ];
 
 export const projects = [
+    {
+        name: "PI Videogames",
+        deploy: "https://pi-videogames-eg.vercel.app/",
+        video: videogames,
+        spanish: "Este es mi proyecto individual de soyHenry bootcamp aprobado, donde tuve que aplicar mis conocimientos de full stack y realizar tanto el backend como el frontend para cumplir con los requisitos solicitados",
+        summary:"This is my approved individual project at soyHenry bootcamp, where I have to apply all my full stack knowledge to fulfil the requirements of frontend and backend",
+    },
     {
         name:"Pusheen Recipes",
         deploy:"https://deploy-food.vercel.app/",
