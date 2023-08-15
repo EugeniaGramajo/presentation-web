@@ -18,7 +18,7 @@ function App() {
   return (
     <div className={darkMode ? "dark-mode" : ""}>
       <NavBar></NavBar>
-  <div className={width: 80%}>
+
       <Header></Header>
       <AboutMe></AboutMe>
       <Education></Education>
@@ -26,7 +26,7 @@ function App() {
       <Projects></Projects>
       <Contact></Contact>
       <Footer></Footer>
-  <div/>
+
     </div>
   );
 }
